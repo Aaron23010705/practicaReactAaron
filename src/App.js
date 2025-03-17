@@ -10,7 +10,12 @@ import Spinner from './components/spinner'
 import Boton from './components/Boton'
 import Card from "./components/card"
 import NavBar from './components/navBar';
-
+import BreadCrumb from './components/breadCrumb';
+import Acordion from './components/Acordion';
+import Group from './ButtonGroup';
+import PopOver from './components/PopOver';
+import ToolTip from './components/toolTip';
+import Progress from './components/progress';
 function App() {
   return (
   
@@ -35,17 +40,17 @@ function App() {
     <br></br>
     <Card/>
     <br></br>
-    <Close/>
+    <BreadCrumb/>
     <br></br>
-    <Close/>
+    <Acordion/>
     <br></br>
-    <Close/>
+    <Group/>
     <br></br>
-    <Close/>
+    <PopOver/>
     <br></br>
-    <Close/>
+    <ToolTip/>
     <br></br>
-    <Close/>
+    <Progress/>
     <br></br>
     <Close/>
     <br></br>
