@@ -1,4 +1,4 @@
-function toolTip() {
+function ToolTip() {
     return (
         <button type="button" class="btn btn-secondary"
         data-bs-toggle="tooltip" data-bs-placement="top"
@@ -9,4 +9,4 @@ function toolTip() {
     )
 }
 
-export default toolTip;
+export default ToolTip;

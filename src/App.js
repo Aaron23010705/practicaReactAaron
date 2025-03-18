@@ -16,6 +16,13 @@ import Group from './ButtonGroup';
 import PopOver from './components/PopOver';
 import ToolTip from './components/toolTip';
 import Progress from './components/progress';
+import NavTabs from './components/NavTabs';
+import Modal from './components/Modal';
+import Collapse from './components/Collapse';
+import OffCanvas from './components/offCanvas';
+import ScrollSpy from './components/ScrollSpy';
+import Carousel from './components/Carousel';
+
 function App() {
   return (
   
@@ -52,12 +59,17 @@ function App() {
     <br></br>
     <Progress/>
     <br></br>
-    <Close/>
+    <NavTabs/>
     <br></br>
-    <Close/>
+    <Modal/>
     <br></br>
-    <Close/>
-
+    <Collapse/>
+    <br></br>
+    <OffCanvas/>
+    <br></br>
+    <ScrollSpy/>
+<br></br>
+<Carousel/>
     </div>
 
   );

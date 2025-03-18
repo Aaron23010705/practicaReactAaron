@@ -1,15 +1,21 @@
 function OffCanvas () {
 
     return (
-      <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <div>
+      <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">Toggle offcanvas</button>
+
+      <div class="alert alert-info d-none d-lg-block">Resize your browser to show the responsive offcanvas toggle.</div>
+      
+      <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Responsive offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p class="mb-0">This is content within an <code>.offcanvas-lg</code>.</p>
+        </div>
       </div>
-      <div class="offcanvas-body">
-        Content for the offcanvas goes here. You can place just about any Bootstrap component or custom elements here.
       </div>
-    </div>
     )
 }
 
